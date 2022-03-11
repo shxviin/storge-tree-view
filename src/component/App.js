@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import TreeList from "./TreeList";
 import "./App.css";
-import service from "./data.js";
+import service from "../data.js";
 import { useDispatch } from "react-redux";
-import { setRootNode } from "./redux/actions/nodeActions";
+import { setRootNode } from "../redux/actions/nodeActions";
 
 const App = () => {
   const [load, setLoad] = useState(false);
